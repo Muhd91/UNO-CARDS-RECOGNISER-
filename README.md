@@ -7,23 +7,28 @@ UNO CARDS RECOGNISER
 Coursework 2 “Intelligent Sensing for Robotics PDE4434”
 
 The goal of this coursework is to create a program that can recognize UNO cards. The program will recognize cards in an image or frame using data from a file (data set) or a regular camera (webcam).
-In this project I am submitting the following files:
-I.	Uno-colour detection – Jupyter notebook.
+
+# In this project I am submitting the following files:
+
+I. Uno-colour detection – Jupyter notebook.
+
 II.	Uno-number_shape detection – Jupyter notebook.
+
 III.	Uno-combination (colour+shape) using the dataset only – Jupyter notebook.
+
 IV.	Uno-combination (colour+shape) using the webcam only – Jupyter notebook and Python script.
+
 V.	Uno-combination (colour+shape) using the dataset & webcam – (webcam-NEW.py) - python script. 
-                      #######################################################
+
+##########################################################################################################
+
 # Notes:
->>> “CARDS” is the name of the folder that contains the data set “UNO cards” and it should be saved in the same directory as the python script.
->>>  Make sure to have/download the below libraries:
-Library name	Installing using pip (python) [1]	Installing using conda (Anaconda) [2]
-glob	                      pip install glob2	            conda install -c conda-forge glob2
-cv2	                  pip install opencv-python	            conda install -c conda-forge opencv
-matplotlib	                   pip install matplotlib	            conda install -c conda-forge matplotlib
-numpy	                      pip install numpy	              conda install -c anaconda numpy
-random	                     pip install random2	                   Already exists
-argparse	                    pip install argparse	             conda install -c conda-forge argparse
+
+> “CARDS” is the name of the folder that contains the data set “UNO cards” and it should be saved in the same directory as the python script.
+
+>> Make sure to have/download the below libraries:
+
+
            
            
            [1] https://pypi.org/
@@ -108,6 +113,8 @@ Example names:
 NOTE: you can add new images to the data set folder “should be similar to the training data set with a black or dark background” and then upload them for testing, like the image below:
 “I have tested up to 2 cards in one image”
 
+
+![TEST_2](https://user-images.githubusercontent.com/86204632/167647564-e53b8366-97a2-4008-b287-0fc4c2e83039.jpg)
 
 
 
