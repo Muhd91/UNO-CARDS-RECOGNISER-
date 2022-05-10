@@ -20,7 +20,7 @@ IV.	Uno-combination (colour+shape) using the webcam only – Jupyter notebook an
 
 V.	Uno-combination (colour+shape) using the dataset & webcam – (webcam-NEW.py) - python script. 
 
-##########################################################################################################
+#######################################################################################
 
 # Notes:
 
