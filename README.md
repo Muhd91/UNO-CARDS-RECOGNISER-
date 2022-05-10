@@ -1,12 +1,12 @@
 # UNO-CARDS-RECOGNISER-
-Coursework 2 “Intelligent Sensing for Robotics PDE4434”
 
+## Coursework 2 “Intelligent Sensing for Robotics PDE4434”
 
+### UNO CARDS RECOGNISER 
 
-UNO CARDS RECOGNISER 
-Coursework 2 “Intelligent Sensing for Robotics PDE4434”
+#### Coursework 2 “Intelligent Sensing for Robotics PDE4434”
 
-The goal of this coursework is to create a program that can recognize UNO cards. The program will recognize cards in an image or frame using data from a file (data set) or a regular camera (webcam).
+>The goal of this coursework is to create a program that can recognize UNO cards. The program will recognize cards in an image or frame using data from a file (data set) or a regular camera (webcam).
 
 # In this project I am submitting the following files:
 
@@ -24,10 +24,11 @@ V.	Uno-combination (colour+shape) using the dataset & webcam – (webcam-NEW.py)
 
 # Notes:
 
-> “CARDS” is the name of the folder that contains the data set “UNO cards” and it should be saved in the same directory as the python script.
+>> “CARDS” is the name of the folder that contains the data set “UNO cards” and it should be saved in the same directory as the python script.
 
 >> Make sure to have/download the below libraries:
 
+![Capture](https://user-images.githubusercontent.com/86204632/167649214-ac011f0e-13b2-420b-9cf4-acfbb0fcc120.PNG)
 
            
            
@@ -80,7 +81,9 @@ Then find the training data which has the closest dominant colour and pick its l
 In this stage, I followed the instructions below:
 
 1.Load the dataset images
+
 2.For each dataset image, crop out the card
+
 3.Normalize image size
 Resizing/Scaling: the ration/scale = 1.5, width = 400 & height = 600
 
@@ -92,6 +95,7 @@ For every number, pick 3 for training and 1 for testing randomly.
 •Find all the external contour in the card
 •Pick the contour which is the closest to the center
 •Save number contour
+
 6.For the test dataset, test against the training dataset
 •Find number contour as explained above
 •Do a contour matching against the contour in the train dataset
@@ -101,17 +105,22 @@ For every number, pick 3 for training and 1 for testing randomly.
 
 # III.Uno-combination (colour+shape) using the dataset only
 
-In this stage you have to upload an image from the UNO CARDS. (code line 4 – Jupyter notebook)
-ex: ("CARDS/"*" ") Replace the "*" with the image name + '.jpeg'
+In this stage you have to upload an image from the UNO CARDS.
+
+(code line 4 – Jupyter notebook)
+
+ex: ("CARDS/"x" ") Replace the "x" with the image name + '.jpeg'
+
 Example names:
-1)  * ZERO_B
-2)  * TWO_B_DRAW
-3)  * SKIP_Y
+1)   ZERO_B
+2)   TWO_B_DRAW
+3)   SKIP_Y
 
 
 
 NOTE: you can add new images to the data set folder “should be similar to the training data set with a black or dark background” and then upload them for testing, like the image below:
-“I have tested up to 2 cards in one image”
+
+>“I have tested up to 2 cards in one image”
 
 
 ![TEST_2](https://user-images.githubusercontent.com/86204632/167647564-e53b8366-97a2-4008-b287-0fc4c2e83039.jpg)
@@ -120,27 +129,42 @@ NOTE: you can add new images to the data set folder “should be similar to the 
 
 
  
-Here I combined the colour and shape detection and used the following functions:
+In this stage I combined the colour and shape detection and used the following functions:
 -find_cards
+
 -find_dominant_colour
+
 -find_number_contour
+
 -Find card for each image
+
 -Normalize image sizes
+
 -Train for colour and number/shape
+
 -Test the data
 
 
 # IV.Uno-combination (colour+shape) using the webcam only
 I followed the previous procedure but only changed the way of receiving the data, as I am feeding the system here by using the webcam. 
 
+
 # V.Uno-combination (colour+shape) using the dataset & webcam – python script
+
 After combining (colour+number/shape) I have added the following arguments:
+
 a- ('--images', help="Input CARDS")
+
 b- ('--camdevice', type=int, default=0, help="Camera number")
+
 c- ('--mode', choices=['livecam', 'staticimg'], default='livecam', help="Mode")
+
 d- ('--input', type=str, default='', help="Input image for detection")
+
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 # The following methods are showing how to run the python script: 
+
 A. Example of how to run the python script and using static images (dataset):
 python webcam-NEW.py --mode staticimg --images CARDS --input CARDS/ONE_Y.jpeg
 
