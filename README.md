@@ -166,7 +166,9 @@ d- ('--input', type=str, default='', help="Input image for detection")
 # The following commands are to run the python script in two ways (static images OR webcam): 
 
 A. How to run the python script and using static images (dataset):
+
 python webcam-NEW.py --mode staticimg --images CARDS --input CARDS/ONE_Y.jpeg  
 
 B. How to run the python script and using the live cam (webcam):
+
 python webcam-NEW.py --mode livecam --camdevice 1 --images CARDS
