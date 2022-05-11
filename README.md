@@ -26,6 +26,8 @@ V.	Uno-combination (colour+shape) using the dataset & webcam – (webcam-NEW.py)
 
 >> “CARDS” is the name of the folder that contains the data set “UNO cards” and it should be saved in the same directory as the python script.
 
+>> While testing using the webcam/camera make sure to have a good setup with a black/dark background. 
+
 >> Make sure to have/download the below libraries:
 
 ![Capture](https://user-images.githubusercontent.com/86204632/167649214-ac011f0e-13b2-420b-9cf4-acfbb0fcc120.PNG)
