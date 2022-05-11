@@ -122,7 +122,7 @@ Example names:
 
 NOTE: you can add new images to the data set folder “should be similar to the training data set with a black or dark background” and then upload them for testing, like the image below:
 
->“I have tested up to 2 cards in one image”
+>“I have tested up to 2 cards in one image ----- MAKE SURE TO UPLOAD THE TEST IMAGE TO THE "CARDS" FOLDER”
 
 
 ![TEST_2](https://user-images.githubusercontent.com/86204632/167647564-e53b8366-97a2-4008-b287-0fc4c2e83039.jpg)
