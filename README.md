@@ -130,6 +130,7 @@ NOTE: you can add new images to the data set folder “should be similar to the 
 
  
 In this stage I combined the colour and shape detection and used the following functions:
+
 -find_cards
 
 -find_dominant_colour
@@ -146,7 +147,7 @@ In this stage I combined the colour and shape detection and used the following f
 
 
 # IV.Uno-combination (colour+shape) using the webcam only
-I followed the previous procedure but only changed the way of receiving the data, as I am feeding the system here by using the webcam. 
+I followed the previous procedure (in III) but only changed the way of receiving the data, as I am feeding the system here by using the webcam. 
 
 
 # V.Uno-combination (colour+shape) using the dataset & webcam – python script
